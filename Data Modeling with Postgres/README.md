@@ -46,16 +46,16 @@ One fact table called as **songplays** is created by extracting data from other 
 
 Four dimension tables are created and loaded with the data.
 
-    1. songs: 
-    
-    [!songs table](https://github.com/17rsuraj/data-engineer/tree/master/Data%20Modeling%20with%20Postgres/Images/songs table.JPG)
-    
-    2. users:
-    
-    [!users table](https://github.com/17rsuraj/data-engineer/tree/master/Data%20Modeling%20with%20Postgres/Images/users_table.JPG)
-    
-    3. artists:
-    [!artists table](https://github.com/17rsuraj/data-engineer/tree/master/Data%20Modeling%20with%20Postgres/Images/artist_table.JPG)
-    
-    4.time:
-    [!time table](https://github.com/17rsuraj/data-engineer/tree/master/Data%20Modeling%20with%20Postgres/Images/time_table.JPG)
+1. songs: 
+
+[!songs table](https://github.com/17rsuraj/data-engineer/tree/master/Data%20Modeling%20with%20Postgres/Images/songs table.JPG)
+
+2. users:
+
+[!users table](https://github.com/17rsuraj/data-engineer/tree/master/Data%20Modeling%20with%20Postgres/Images/users_table.JPG)
+
+3. artists:
+[!artists table](https://github.com/17rsuraj/data-engineer/tree/master/Data%20Modeling%20with%20Postgres/Images/artist_table.JPG)
+
+4.time:
+[!time table](https://github.com/17rsuraj/data-engineer/tree/master/Data%20Modeling%20with%20Postgres/Images/time_table.JPG)
