@@ -78,4 +78,10 @@ Run these files in given order
 
 Sample output for each table can be checked [Here](https://github.com/17rsuraj/data-engineer/tree/master/Data%20Modeling%20with%20Postgres/Images)
 
+------------------------------------------------------
+
+#### License
+
+[Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
 
