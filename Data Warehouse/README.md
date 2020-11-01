@@ -19,6 +19,8 @@ Their data resides in a directory of JSON logs on user activity on the app, as w
 
 Being a Data Engineer, I should build ETL pipeline that extracts their data from S3, stages them in Redshift, and transforms data into a set of dimensional tables for their analytics team to continue finding insights in what songs their users are listening to.
 
+------------------------------------------------------
+
 ### Datasets:
 
 Two separate datasets song_data and log_data are used in this project.
@@ -55,11 +57,13 @@ Four dimension tables are created with the columns as shown below and loaded wit
 3. artists: [artist_id, name, location, latitude, longitude]
 4. time: [start_time, hour, day, week, month, year, weekday]
 
+--------------------------------------------------
+
 ### Files and Usage:
 
 Create these files in the given order
 
-1. dwh.cfg : Configuration file where user need to add the Cluster credentials. (Never share your cluster credentials with anyone)
+1. dwh.cfg : Configuration file where user need to add the Cluster credentials. (_Never share your cluster credentials with anyone_)
 
 2. sql_queries.py : It contains all the sql queries.
 
@@ -77,6 +81,7 @@ Create below things either by Click-in or Infrastructure-as-Code (IaC) method. I
 
 1. [Redshift Cluster](https://docs.aws.amazon.com/redshift/latest/dg/tutorial-loading-data-launch-cluster.html)
 2. [IAM Role](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/iam-roles-for-amazon-ec2.html)
+3. [Security Group](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_SecurityGroups.html)
 
 Run these files in given order
 
@@ -86,7 +91,7 @@ Run these files in given order
 
 ### Sample Results:
 
-Sample output for each table can be checked [Here](https://github.com/17rsuraj/data-engineer)
+Sample output for each table can be checked [Here](https://github.com/17rsuraj/data-engineer/tree/master/Data%20Warehouse/Images)
 
 ------------------------------------------------------
 
